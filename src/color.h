@@ -2,7 +2,8 @@
 
 #include "pch.h"
 
-#include "maths\vec3.h"
+#include "maths/vec3.h"
+#include "ray.h"
 #include "common.h"
 
 void write_color(std::ostream &out, color pixel_color, int samples_per_pixel)
