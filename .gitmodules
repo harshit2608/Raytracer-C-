@@ -1,0 +1,3 @@
+[submodule "RayTracer/thirdparty/spdlog"]
+	path = RayTracer/thirdparty/spdlog
+	url = https://github.com/gabime/spdlog

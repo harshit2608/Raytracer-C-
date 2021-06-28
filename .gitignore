@@ -1,2 +1,21 @@
-builds/
-thirdparty/
+# Binaries
+**/bin/
+!thirdparty/premake/bin/
+bin-int/
+
+# Render files
+*.log
+
+# Visual Studio files and folder
+.vs/
+.vscode/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+# Bug Finders Ans Optimizers
+*.plog
+
+# Other files
+.cph
